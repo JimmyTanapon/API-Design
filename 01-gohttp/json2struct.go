@@ -20,7 +20,7 @@ func testJsontoStruct() {
 	}`)
 	u := &User2{}
 	err := json.Unmarshal(data, u)
-	fmt.Println("%#v \n", u)
+	fmt.Printf("%#v \n", u)
 	fmt.Println(err)
 
 }
