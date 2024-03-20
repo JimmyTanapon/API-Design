@@ -61,20 +61,6 @@ func main() {
 
 	// }
 	// fmt.Println("Create sucess!")
-
-	// err = insertUsers(db)
-	// if err != nil {
-	// 	log.Fatal("can't create table ", err)
-
-	// }
-	// err = queryAll(db)
-	// if err != nil {
-	// 	log.Fatal("err:", err)
-	// }
-	// queryOneRow(db, 2)
-	// // updateUser(db, 1, "AnuchitO")
-	// deleteUserByID(db, 7)
-
 }
 
 // อยากได้ของ ใช้ db.QueryRow
